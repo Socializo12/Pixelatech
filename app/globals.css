@@ -1,0 +1,15 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+     --gradient-dark: linear-gradient(135deg, rgba(17, 18, 35, 0.8), rgba(0, 0, 0, 0.9));
+}
+
+
+.content-mainbox {
+  background: var(--gradient-dark);
+  transition: all 0.4s ease;
+}
+

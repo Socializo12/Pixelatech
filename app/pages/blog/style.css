@@ -1,0 +1,224 @@
+.main-blogContainer {
+    max-width: 850px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-blogContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(ellipse at center, rgba(41, 52, 255, 0.08) 0%, transparent 70%);
+    animation: pulse 10s ease-in-out infinite;
+}
+
+.container-Blog {
+    max-width: 850px;
+    width: 100%;
+    margin-top: 120px;
+    position: relative;
+}
+
+
+.sec1-h4 {
+    font-size: clamp(1rem, 1vw, 1rem);
+    padding: 16px 25px;
+    font-weight: bold;
+    position: relative;
+    font-size: 18px;
+    animation: bounceIn 1s ease-out;
+}
+
+.sec1-h4::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: calc(100% + 0px);
+    z-index: -1;
+    border-radius: 22px;
+    background: linear-gradient(50deg, rgb(41, 52, 255), rgba(36, 65, 212, 0) 50%);
+    padding: 2px;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+
+}
+
+
+.card-blog {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 30px 50px;
+  background: linear-gradient(135deg, rgba(17, 18, 35, 0.8), rgba(0, 0, 0, 0.9));
+  border-radius: 25px;
+  border: 1px solid rgba(138, 165, 255, 0.2);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: fadeInUp 0.8s ease-out;
+  position: relative;
+}
+
+
+.card-blog::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(-45deg, rgba(41, 52, 255, 0.1), rgba(138, 165, 255, 0.1), rgba(0, 0, 0, 0.1));
+  background-size: 400% 400%;
+  animation: gradientShift 12s ease infinite;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+
+.card-blog:hover::before {
+  opacity: 1;
+}
+.card-blog-img{
+  max-width: 100%;
+  max-height: 100%;
+  height: 350px;
+  width: 650px;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+
+}
+.card-blog-img img{
+  position: relative;
+ height: 100%;
+  width: 100%;
+  
+}
+
+.card-blog:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 25px 50px rgba(41, 52, 255, 0.3);
+  border-color: rgba(138, 165, 255, 0.4);
+}
+
+.main-card {
+  max-width: 100%;
+  width: 750px;
+  margin: 20px 0;
+}
+
+
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  70% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 768px) {
+    .main-blogContainer {
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .container-Blog {
+        margin-top: 100px;
+    }
+  .card-blog-img{
+  height: 300px;
+ }
+
+}
+
+@media (max-width: 480px) {
+    .main-blogContainer {
+        padding: 10px 15px;
+
+    }
+
+    .container-Blog {
+        margin-top: 30px;
+    }
+
+    .container-Blog {
+        margin-top: 100px;
+    }
+    .card-blog-img{
+  margin-bottom: 10px;
+  height: 260px;
+ }
+  .card-blog h1{
+    font-size: 22px;
+ } 
+}
+
+@media (max-width: 360px) {
+    .main-blogContainer {
+        padding: 40px 12px;
+        gap: 30px;
+    }
+
+    .container-Blog {
+        margin-top: 60px;
+    }
+     .card-blog-img{
+
+  height: 200px;
+ }
+ .card-blog h1{
+    font-size: 20px;
+ }
+}
