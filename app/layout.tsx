@@ -29,12 +29,12 @@ const geistMono = Geist_Mono({
 });
 
 // export const metadata: Metadata = {
-//   title: "Socializo- AI-Powered Lead Generation for B2B Companies",
+//   title: "Pixelatech- AI-Powered Lead Generation for B2B Companies",
 //   description:
 //     "Transform your B2B lead generation with our AI-powered system. Get 50+ qualified leads per month with our proven automation that hunts, nurtures, and closes cold prospects in just 60 days.",
 //   keywords:
 //     "AI lead generation, B2B lead generation, sales automation, cold outreach, lead nurturing, B2B sales, AI sales tools",
-//   authors: [{ name: "Socializo" }],
+//   authors: [{ name: "Pixelatech" }],
 //   viewport: "width=device-width, initial-scale=1",
 //   robots: "index, follow",
 //   openGraph: {
@@ -42,7 +42,7 @@ const geistMono = Geist_Mono({
 //     description:
 //       "Transform your B2B lead generation with our AI-powered system. Get 50+ qualified leads per month.",
 //     type: "website",
-//     url: "https:socializo.com",
+//     url: "https:Pixelatech.com",
 //     siteName: "Socailizo",
 //   },
 //   twitter: {

@@ -28,54 +28,51 @@ const TextEffect = dynamic(
 
 const faqQuestions = [
   {
-    question: "Will this affect our domain reputation or put us in spam?",
+    question:
+      "Will SEO or Google Ads affect our website’s ranking or reputation?",
     answer:
-      "We use robust email authentication protocols like SPF, DKIM, and DMARC, along with advanced warm-up techniques and strict best practices to protect your domain's reputation. Our team gradually scales outreach and monitors delivery to keep your main domain safe. Clients commonly experience better deliverability rates with our approach.",
+      "Not at all. At Pixelatech, we follow Google’s best practices for SEO and run optimized PPC campaigns that improve visibility without harming your site’s reputation. Our team monitors performance closely to ensure safe, effective growth.",
+  },
+  {
+    question: "What if our business has a very niche audience?",
+    answer:
+      "No problem. We specialize in targeted strategies for both broad and niche markets. Whether it’s SEO, social media, or PPC ads, we tailor campaigns to reach the exact audience you want, even in very specific industries.",
+  },
+  {
+    question: "How quickly can we expect results from your services?",
+    answer:
+      "Results depend on the service. With Google Ads and PPC, you can see leads and traffic almost immediately. SEO and social media typically take a few weeks to build momentum, but they deliver long-term, sustainable growth.",
+  },
+  {
+    question: "Which platforms and tools do you work with?",
+    answer:
+      "We work with all major platforms, including Google Ads, Facebook, Instagram, TikTok, and LinkedIn. For websites, we use modern tools and frameworks to build fast, responsive sites that integrate smoothly with your existing systems.",
   },
   {
     question:
-      "What if our ideal customer profile or target market is very specialized?",
+      "How is this different from hiring a freelancer or managing campaigns in-house?",
     answer:
-      "We excel in working with niche markets. Our AI solutions are designed to hyper-target specific industries, roles, and company sizes. By combining data science, audience modeling, and digital channel insights, we help identify and engage prospects who closely match your goals—even in very specialized markets.",
+      "Pixelatech gives you a full team of experts in web development, SEO, social media, and paid ads—without the high cost of hiring in-house. We bring proven strategies, continuous optimization, and measurable results you can rely on.",
   },
   {
-    question:
-      "How quickly can we expect results, such as booked meetings or qualified leads?",
+    question: "Do you offer any guarantee or refund policy?",
     answer:
-      "Most organizations start seeing meaningful activity within one to two weeks of launching their campaign. Full optimization typically takes about 30 days, after which you can expect a steady flow of qualified appointments monthly, depending on the size of your market and the strength of your offer.",
-  },
-  {
-    question: "Which platforms and tools does your system work with?",
-    answer:
-      "Our solutions integrate fluidly with major CRM systems like HubSpot, Salesforce, and Monday.com. For outreach and marketing, we combine our AI-powered platform with tools for Google Ads, Meta Ads (including Facebook and Instagram), and leading social media scheduling platforms. Our approach enhances and adapts to your existing marketing stack.",
-  },
-  {
-    question:
-      "How is this different from hiring SDRs or purchasing lead lists?",
-    answer:
-      "Our AI solutions work 24/7, need no training, and maintain consistent quality. We focus on delivering qualified appointments—prospects who are already engaged and interested, not just raw leads. This approach reduces overhead versus hiring full teams and ensures every contact is nurtured and ready for a sales conversation.",
-  },
-  {
-    question: "Do you offer a guarantee or a refund policy?",
-    answer:
-      "We provide a 60-day performance guarantee: if you don’t receive at least 10 qualified appointments within your first 60 days, we’ll refund your setup fee and keep working at no additional charge until that target is met. Our performance-driven approach has led to a refund request rate of less than two percent.",
+      "Yes, we believe in results. If you don’t see measurable improvements within the agreed timeline, we’ll continue working at no extra cost until we hit the targets. Your success is our top priority.",
   },
   {
     question: "Do you work with all industries?",
     answer:
-      "We partner with most B2B industries and have particular strength in SaaS, professional services, advanced manufacturing, healthcare technology, and financial services. We do not serve multi-level marketing, cryptocurrency, or compliance-restricted industries. We evaluate fit during an initial consultation.",
+      "Yes, we partner with a wide range of industries, including real estate, healthcare, e-commerce, SaaS, and professional services. During our consultation, we make sure we’re the right fit for your business goals.",
   },
   {
-    question:
-      "How do you maintain quality and brand compliance in messaging and ads?",
+    question: "How do you ensure quality and brand consistency?",
     answer:
-      "Every campaign message and ad creative is reviewed by our team of experts. We build custom strategies reflecting your brand voice and value proposition, ensuring all communication meets your compliance requirements. You maintain final approval on all messaging, and our AI continually adapts to your preferred tone across channels.",
+      "Every website, campaign, and ad is customized to match your brand’s voice and identity. You always have final approval on content and creatives, and we continuously optimize to maintain consistency and quality.",
   },
   {
-    question:
-      "What makes your AI-driven SMM, Google Ads, and Meta Ads different?",
+    question: "What makes Pixelatech’s approach different?",
     answer:
-      "Our primary focus is custom AI solutions, but we blend these with social media and paid ad strategies for superior reach and efficiency. We use AI algorithms to optimize targeting, content, and bidding, delivering better ROI and improved conversions across every channel—from organic social engagement to paid campaigns on Google and Meta platforms.",
+      "Unlike traditional agencies, we combine web development, SEO, social media, Google Ads, and lead generation into one integrated strategy. This gives your business better reach, higher ROI, and faster growth across all channels.",
   },
 ];
 
@@ -138,7 +135,7 @@ const index = () => {
     name: "",
     email: "",
     phone: "",
-    message: ""
+    message: "",
   });
 
   const [status, setStatus] = useState<null | "loading" | "success" | "error">(
@@ -170,7 +167,7 @@ const index = () => {
           name: "",
           email: "",
           phone: "",
-          message: ""
+          message: "",
         });
       } else {
         setStatus("error");
@@ -185,8 +182,6 @@ const index = () => {
 
   return (
     <div className="mainContainer-section">
-    
-
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-main services">
@@ -194,34 +189,67 @@ const index = () => {
             <div className="hero-content">
               <div className="flex flex-col justify-center items-center">
                 <div className="my-[10px] ">
-                  <h3 className=" text-[32px] font-bold leading-[1.1] gradient-text ">
-                   Creating
+                  <h3 className=" text-[42px] hero-heading hero-title  font-bold leading-[1.1] gradient-text ">
+                    Build a Strong Online Presence with Pixelatech
                   </h3>
                 </div>
                 <div className="my-[10px] ">
-                  <h3 className="hero-heading text-[62px] font-bold leading-[1.1] hero-title gradient-text ">
-                  Powerful Online Presence
+                  <h3 className="hero-heading text-[32px] font-bold leading-[1.1] gradient-text ">
+                    Ready to take your business to the next level?
                   </h3>
                 </div>
-                 <div className="my-[10px] ">
-                  <h3 className=" text-[32px] font-bold leading-[1.1] gradient-text ">
-                    That Are Prepared To
+                <div className="my-[10px] text-left">
+                  <h3 className=" text-[32px] text-left hero-title font-bold leading-[1.1] gradient-text ">
+                    We specialize in:
                   </h3>
                 </div>
                 <div className="my-[10px] ">
-                  <h3 className="hero-heading text-[62px] font-bold leading-[1.1] hero-title gradient-text ">
+                  <ul className=" text-[20px] text-left">
+                    <li>
+                      <b className="pe-[6px]">Google Ads & PPC </b>
+                      <span className="ps-[px] text-[20px]">-</span> Drive
+                      instant traffic and sales with smart, targeted campaigns.
+                    </li>
+                    <li>
+                      <b className="pe-[6px]">Web Development </b>
+                      <span className="ps-[px] text-[20px]">-</span> Modern,
+                      responsive websites that bring your brand to life.
+                    </li>
+                    <li>
+                      <b className="pe-[6px]">SEO </b>
+                      <span className="ps-[px] text-[20px]">-</span> Get found
+                      on Google and stay ahead of your competitors.
+                    </li>
+                    <li>
+                      <b className="pe-[6px]">Social Media Marketing </b>
+                      <span className="ps-[px] text-[20px]">-</span> Grow your
+                      audience and build lasting connections.
+                    </li>
+                    <li>
+                      <b className="pe-[6px]">Lead Generation </b>
+                      <span className="ps-[px] text-[20px]">-</span> Turn clicks
+                      into loyal customers.
+                    </li>
+                  </ul>
+                  {/* <h3 className="hero-heading text-[62px] font-bold leading-[1.1] hero-title gradient-text ">
                    Take Your Brand To New Heights?
-                  </h3>
+                  </h3> */}
                 </div>
-               
+
                 <div className="my-[10px] ">
-                  <p className="px-[5px] text-[20px] leading-[1.4] hero-subtitle">
-                    
-                  </p>
+                  <p className="px-[5px] text-[20px] leading-[1.4] hero-subtitle"></p>
                 </div>
                 <div className="my-[10px] ">
                   <button className="hero-cta-btn">
-                    Fill Out The Form & Get 70% Off
+                    <a
+                      href="https://calendly.com/abbdulsamadhere/30min?back=1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="no-underline text-[black]"
+                    >
+                      {" "}
+                      💡 Book a free 30 minutes consultation
+                    </a>
                   </button>
                 </div>
                 <div className="flex items-center gap-6 text-sm text-gray-800 my-[20px] ">
@@ -243,7 +271,7 @@ const index = () => {
                     />
                   </svg>
                   <span className="ps-4">
-                    See Measurable Growth or Your Money Back
+                    See real growth or get your money back.
                   </span>
                 </div>
                 <div className="w-full px-4 md:px-8 mt-4 text-center">
@@ -264,51 +292,61 @@ const index = () => {
               <h4 className="gradient-text">What We Do</h4>
             </div>
             <main className="">
-              <div className="main-container-grid mx-auto gap-[20px] p-8 md:p-12">
+              <div className="main-container-grid  mx-auto gap-[20px] p-8 md:p-12">
                 {/* One */}
                 <div className="px-[20px] f-email content-box">
                   <h2 className="text-2xl md:text-3xl text-[28px] text-center  font-bold my-[20px]">
-                    Agentic AI
+                    Google Ads (PPC Management)
                   </h2>
                   <p className="text-lg md:text-xl text-zinc-400 mb-[12px] text-[left]">
-                    Welcome to Socializo, your one-stop destination for
-                    cutting-edge AI agent development and intelligent
-                    automation. As a leading AI agentic solutions company, we
-                    specialize in crafting custom AI agents that transform how
-                    businesses interact with data, users, and workflows. Whether
-                    you need tailored AI agent development services, a trusted
-                    partner for scalable AI solutions, or innovative automation
-                    to streamline your operations, Socializo delivers expertise
-                    and results at every stage.
+                    Welcome to Pixelatech, your one-stop destination for
+                    powerful Google Ads and PPC management. As a trusted digital
+                    marketing partner, we specialize in creating high-performing
+                    ad campaigns that maximize ROI and bring measurable results.
+                    Whether you need targeted PPC campaigns, a reliable partner
+                    for ongoing ad optimization, or smart strategies to lower
+                    costs and increase conversions, Pixelatech delivers
+                    expertise and results at every stage.
                   </p>
 
                   <div className="text-left w-full px-4 md:px-0 my-[10px]">
                     <h2 className="text-2xl md:text-3xl font-bold my-[20px]">
-                      Agents & Automations
+                      Campaigns & Optimization
                     </h2>
+                    <h3 className="text-2xl md:text-3xl font-bold my-[20px]">
+                      PPC Management Company That Delivers
+                    </h3>
                     <ul className="space-y-4 my-[12px]">
                       <li className="flex items-start my-[10px] gap-[8px]">
                         <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
                         <p className="text-lg text-zinc-300">
-                          <b>AI Agent Development Company That Delivers</b>
+                          <b>Complete PPC Management Services</b>
                         </p>
                       </li>
                       <li className="flex items-start my-[10px] gap-[8px]">
                         <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
                         <p className="text-lg text-zinc-300">
-                          <b>Agentic AI Development Services</b>
+                          <b>Google Ads Campaign Setup & Optimization</b>
                         </p>
                       </li>
                       <li className="flex items-start my-[10px] gap-[8px]">
                         <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
                         <p className="text-lg text-zinc-300">
-                          <b>RAG Agent Development & LLM Integration</b>
+                          <b>Keyword Research & Bid Management</b>
                         </p>
                       </li>
                       <li className="flex items-start my-[10px] gap-[8px]">
                         <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
                         <p className="text-lg text-zinc-300">
-                          <b>No-Code AI Automation Services</b>
+                          <b>
+                            Landing Page Optimization for Higher Conversions
+                          </b>
+                        </p>
+                      </li>
+                      <li className="flex items-start my-[10px] gap-[8px]">
+                        <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
+                        <p className="text-lg text-zinc-300">
+                          <b>Performance Tracking & Data-Driven Results</b>
                         </p>
                       </li>
                     </ul>
@@ -319,60 +357,72 @@ const index = () => {
                  </Button> */}
                 </div>
                 {/* Second */}
-                <div className="px-[20px] f-email content-box">
-                  <h1 className="text-2xl md:text-3xl text-center text-[28px] font-bold my-[20px]">
-                    Web Development
+                <div className="=px-[20px] f-email content-box ">
+                  <h1 className="text-2xl md:text-3xl  text-center text-[28px] font-bold my-[20px]">
+                    Lead Generation
                   </h1>
                   <p className="text-lg md:text-xl text-zinc-400 mb-[12px] text-[left]">
-                    Welcome to Socializo, your one-stop destination for
-                    cutting-edge AI agent development and intelligent
-                    automation. As a leading AI agentic solutions company, we
-                    specialize in crafting custom AI agents that transform how
-                    businesses interact with data, users, and workflows. Whether
-                    you need tailored AI agent development services, a trusted
-                    partner for scalable AI solutions, or innovative automation
-                    to streamline your operations, Socializo delivers expertise
-                    and results at every stage.
+                    Pixelatech is a trusted Houston lead generation company
+                    specializing in connecting businesses with qualified
+                    prospects through smart digital strategies. Our expert team
+                    designs high-converting campaigns that deliver real leads
+                    for industries like real estate, property management, and
+                    more. With data-driven targeting and proven methods, we help
+                    your business grow by consistently bringing the right
+                    audience to your sales funnel.
                   </p>
-
                   <div className="text-left w-full px-4 md:px-0 my-[10px]">
-                    <h2 className="text-2xl md:text-3xl font-bold my-[20px]">
-                      Web Development Services
+                    <h2 className="text-2xl md:text-3xl text-[24px] font-bold my-[20px]">
+                      Our Lead Generation Services
                     </h2>
-
-                    <ul className="space-y-4 my-[12px]">
-                      <li className="flex items-start my-[10px] gap-[8px]">
-                        <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
-                        <p className="text-lg text-zinc-300">
-                          <strong>Responsive website design</strong>
-                        </p>
-                      </li>
-                      <li className="flex items-start my-[10px] gap-[8px]">
-                        <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
-                        <p className="text-lg text-zinc-300">
-                          <strong>E-commerce website development</strong>
-                        </p>
-                      </li>
-                      <li className="flex items-start my-[10px] gap-[8px]">
-                        <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
-                        <p className="text-lg text-zinc-300">
-                          <strong>
-                            SEO optimization and performance enhancement
-                          </strong>
-                        </p>
-                      </li>
-                      <li className="flex items-start my-[10px] gap-[8px]">
-                        <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
-                        <p className="text-lg text-zinc-300">
-                          <strong>Web app development in Houston, Texas</strong>
-                        </p>
-                      </li>
-                    </ul>
                   </div>
-
-                  {/* <Button className="cta-button mt-8">
-                   Contact Us
-                 </Button> */}
+                  <ul className="space-y-4 my-[12px]">
+                    <li className="flex items-start my-[10px] gap-[8px]">
+                      <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
+                      <p className="text-lg text-zinc-300">
+                        <strong>
+                          Full-service Houston lead generation with ongoing
+                          optimization
+                        </strong>
+                      </p>
+                    </li>
+                    <li className="flex items-start my-[10px] gap-[8px]">
+                      <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
+                      <p className="text-lg text-zinc-300">
+                        <strong>
+                          Targeted campaigns for real estate and property
+                          management
+                        </strong>
+                      </p>
+                    </li>
+                    <li className="flex items-start my-[10px] gap-[8px]">
+                      <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
+                      <p className="text-lg text-zinc-300">
+                        <strong>
+                          Strategic audience research and funnel building by
+                          Houston experts
+                        </strong>
+                      </p>
+                    </li>
+                    <li className="flex items-start my-[10px] gap-[8px]">
+                      <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
+                      <p className="text-lg text-zinc-300">
+                        <strong>
+                          Transparent reporting from a trusted Houston lead
+                          generation partner
+                        </strong>
+                      </p>
+                    </li>
+                    <li className="flex items-start my-[10px] gap-[8px]">
+                      <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
+                      <p className="text-lg text-zinc-300">
+                        <strong>
+                          Complete digital marketing solutions to drive leads
+                          and sales
+                        </strong>
+                      </p>
+                    </li>
+                  </ul>
                 </div>
                 {/* Third */}
                 <div className="px-[20px] f-email content-box">
@@ -380,13 +430,13 @@ const index = () => {
                     Social Media Marketing
                   </h1>
                   <p className="text-lg md:text-xl text-zinc-400 mb-[12px] text-[left]">
-                    At Socializo, we help brands grow with targeted advertising
-                    across Facebook, Instagram, TikTok, Snapchat, and Meta
-                    platforms. Whether you need a Facebook ads company to drive
-                    conversions, an Instagram ads agency to boost engagement, a
-                    TikTok ads company for viral reach, or a Snapchat ads agency
-                    for creative audience targeting, our team delivers strategic
-                    campaigns and measurable results tailored to your goals.
+                    At Pixelatech, we specialize in helping businesses grow with
+                    powerful Meta Ads campaigns across Facebook and Instagram.
+                    Whether your goal is to increase sales, drive website
+                    traffic, or boost brand awareness, our expert team designs
+                    and manages ads that deliver real results. From precise
+                    targeting to creative ad design and ongoing optimization, we
+                    make sure every campaign maximizes ROI.
                   </p>
                   <div className="text-left w-full px-4 md:px-0 my-[10px]">
                     <h2 className="text-2xl md:text-3xl font-bold my-[20px]">
@@ -397,30 +447,47 @@ const index = () => {
                         <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
                         <p className="text-lg text-zinc-300">
                           <strong>Facebook Ads Services</strong>
+                          <span>
+                            – Run high-converting campaigns tailored to your
+                            audience.
+                          </span>
                         </p>
                       </li>
                       <li className="flex items-start my-[10px] gap-[8px]">
                         <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
                         <p className="text-lg text-zinc-300">
                           <strong>Instagram Ads Services</strong>
+                          <span>
+                            – Boost engagement and reach with visually
+                            compelling ads.
+                          </span>
                         </p>
                       </li>
                       <li className="flex items-start my-[10px] gap-[8px]">
                         <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
                         <p className="text-lg text-zinc-300">
-                          <strong>Meta Ads Services</strong>
+                          <strong>Audience Targeting & Retargeting</strong>
+                          <span>
+                            – Reach the right people at the right time.
+                          </span>
                         </p>
                       </li>
                       <li className="flex items-start my-[10px] gap-[8px]">
                         <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
                         <p className="text-lg text-zinc-300">
-                          <strong>TikTok Ads Services</strong>
+                          <strong>Creative Ad Design & Copywriting</strong>
+                          <span>
+                            – Eye-catching visuals and persuasive messaging.
+                          </span>
                         </p>
                       </li>
                       <li className="flex items-start my-[10px] gap-[8px]">
                         <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
                         <p className="text-lg text-zinc-300">
-                          <strong>Snapchat Ads Services</strong>
+                          <strong>Performance Tracking & Optimization</strong>
+                          <span>
+                            – Data-driven improvements for better ROI.
+                          </span>
                         </p>
                       </li>
                     </ul>
@@ -433,20 +500,20 @@ const index = () => {
                 {/* four */}
                 <div className="=px-[20px] f-email content-box">
                   <h1 className="text-2xl md:text-3xl  text-center text-[28px] font-bold my-[20px]">
-                    Google Ads
+                    SEO Optimization
                   </h1>
                   <p className="text-lg md:text-xl text-zinc-400 mb-[12px] text-[left]">
-                    Socializo is a top Houston Google Ads agency specializing in
-                    expert PPC management and campaign optimization for real
-                    estate, property management, and more. Our certified
-                    consultants create high-ROI, data-driven Google Ads
-                    strategies that connect your business with the right
-                    audience in Houston, Texas, ensuring maximum visibility and
-                    growth for your brand.
+                    Pixelatech is a trusted Houston SEO company specializing in
+                    helping businesses rank higher on search engines and attract
+                    the right audience. Our expert team uses proven strategies
+                    to improve visibility, increase organic traffic, and
+                    generate qualified leads. From local SEO for small
+                    businesses to advanced optimization for competitive
+                    industries, we deliver results that drive long-term growth.
                   </p>
                   <div className="text-left w-full px-4 md:px-0 my-[10px]">
                     <h2 className="text-2xl md:text-3xl text-[24px] font-bold my-[20px]">
-                      Our Google Ads Services
+                      Our SEO Services
                     </h2>
                   </div>
                   <ul className="space-y-4 my-[12px]">
@@ -454,9 +521,7 @@ const index = () => {
                       <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
                       <p className="text-lg text-zinc-300">
                         <strong>
-                          {" "}
-                          Full-service Houston Google Ads management with
-                          continuous optimization
+                          Full-service Houston SEO with ongoing optimization
                         </strong>
                       </p>
                     </li>
@@ -464,8 +529,8 @@ const index = () => {
                       <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
                       <p className="text-lg text-zinc-300">
                         <strong>
-                          Targeted Google Ads marketing for real estate and
-                          property management
+                          Local SEO strategies for real estate, property
+                          management, and more
                         </strong>
                       </p>
                     </li>
@@ -473,8 +538,8 @@ const index = () => {
                       <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
                       <p className="text-lg text-zinc-300">
                         <strong>
-                          Strategic keyword research and bid management by
-                          Houston Google Ads experts
+                          In-depth keyword research and content optimization by
+                          SEO experts
                         </strong>
                       </p>
                     </li>
@@ -482,8 +547,8 @@ const index = () => {
                       <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
                       <p className="text-lg text-zinc-300">
                         <strong>
-                          Transparent reporting from a trusted Houston Google
-                          Ads agency
+                          Transparent reporting from a trusted Houston SEO
+                          partner
                         </strong>
                       </p>
                     </li>
@@ -491,12 +556,82 @@ const index = () => {
                       <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
                       <p className="text-lg text-zinc-300">
                         <strong>
-                          Complete PPC marketing services in Houston to drive
-                          leads and sales
+                          Complete SEO solutions to boost traffic, leads, and
+                          sales
                         </strong>
                       </p>
                     </li>
                   </ul>
+                </div>
+                {/* Five */}
+
+                <div className="px-[20px] f-email content-box">
+                  <h1 className="text-2xl md:text-3xl text-center text-[28px] font-bold my-[20px]">
+                    Web Development
+                  </h1>
+                  <p className="text-lg md:text-xl text-zinc-400 mb-[12px] text-[left]">
+                    Welcome to Pixelatech, your one-stop destination for modern
+                    and professional web development services. As a trusted
+                    digital solutions company, we specialize in building
+                    responsive, user-friendly, and performance-driven websites
+                    that help businesses grow online. Whether you need a custom
+                    website, a reliable partner for e-commerce development, or a
+                    web app to streamline your operations, Pixelatech delivers
+                    expertise and results at every stage.
+                  </p>
+
+                  <div className="text-left w-full px-4 md:px-0 my-[10px]">
+                    <h2 className="text-2xl md:text-3xl font-bold my-[20px]">
+                      Web Development Services
+                    </h2>
+
+                    <ul className="space-y-4 my-[12px]">
+                      <li className="flex items-start my-[10px] gap-[8px]">
+                        <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
+                        <p className="text-lg text-zinc-300">
+                          <strong>Responsive Website Design</strong>
+                          <span>
+                            – Mobile-friendly websites that look great on any
+                            device.
+                          </span>
+                        </p>
+                      </li>
+                      <li className="flex items-start my-[10px] gap-[8px]">
+                        <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
+                        <p className="text-lg text-zinc-300">
+                          <strong>E-Commerce Website Development</strong>
+                          <span>
+                            – Secure, scalable, and sales-focused online stores.
+                          </span>
+                        </p>
+                      </li>
+                      <li className="flex items-start my-[10px] gap-[8px]">
+                        <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
+                        <p className="text-lg text-zinc-300">
+                          <strong>
+                            SEO Optimization & Performance Enhancement
+                          </strong>
+                          <span>
+                            – Websites built to rank higher and load faster.
+                          </span>
+                        </p>
+                      </li>
+                      <li className="flex items-start my-[10px] gap-[8px]">
+                        <CheckCircle2 className="h-6 w-6    icon-services  flex-shrink-0 mt-1" />
+                        <p className="text-lg text-zinc-300">
+                          <strong>Web App Development in Houston, Texas</strong>
+                          <span>
+                            – Tailored web applications to fit your business
+                            needs.
+                          </span>
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+
+                  {/* <Button className="cta-button mt-8">
+                   Contact Us
+                 </Button> */}
                 </div>
               </div>
             </main>
@@ -507,19 +642,18 @@ const index = () => {
             <h4 className="gradient-text ">Meet The Founder</h4>
           </div>
           <div className="section3-box-inner">
-            <div className="tex-left md:text-center">
-              <p className="m-[0]">
-                We take the time to deeply understand your ideal customers and
-                their unique challenges. Using advanced automation, we craft
-                tailored messaging that speaks directly to their needs and
-                clearly shows how your company provides the perfect solution,
-                all delivered efficiently and intelligently through our
-                AI-driven systems.
+            <div className="text-[left]">
+              <p className="m-[0] text-[left]">
+                We take the time to truly understand your business and your
+                ideal customers. Through smart strategies like Google Ads, SEO,
+                social media, and web solutions, we craft messaging that speaks
+                directly to their needs and highlights how your brand offers the
+                right solution. Every campaign is designed to deliver results
+                efficiently and effectively, helping your business grow with
+                confidence.
               </p>
             </div>
 
-          
-     
             <div className="flex items-center gap-[16px] flex-wrap justify-center w-full">
               <div className="relative w-[95px] h-[95px] overflow-hidden rounded-full">
                 <Image
@@ -535,10 +669,10 @@ const index = () => {
                   Abdul Samad
                 </span>
                 <br />
-                <span className="text-sm">CEO, Socializo</span>
+                <span className="text-sm">CEO, Pixelatech</span>
               </h6>
               <a
-                href="https://www.linkedin.com/company/socializoco/"
+                href="https://www.linkedin.com/company/Pixelatechco/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-300 transition-colors"
@@ -554,8 +688,6 @@ const index = () => {
                 </svg>
               </a>
             </div>
-
- 
           </div>
 
           <div className="w-full flex flex-wrap justify-center items-center gap-[25px] mt-12">
@@ -574,7 +706,7 @@ const index = () => {
                 />
               </svg>
               <span className="text-white font-semibold text-[18px] underline decoration-solid">
-                9 Years in AI
+                9 Years in Marketing
               </span>
             </div>
 
@@ -605,37 +737,53 @@ const index = () => {
 
           <div className="text-center mt-[30px] mb-[50px]">
             <h2 className="text-3xl md:text-4xl font-bold pb-[10px]">
-              Why Choose Socializo Over Traditional Methods?
+              Why Choose Pixelatech Over Traditional Methods?
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              See how our custom AI solutions outperform traditional technology
-              and consulting approaches
+              See how our custom Marketing solutions outperform traditional
+              technology and consulting approaches
             </p>
           </div>
           <div className="max-w-7xl mx-auto">
             <div className="sec3-box-inner3">
-              {/* The Socializo Method */}
+              {/* The Pixelatech Method */}
               <div className="sec3-box-outer3">
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-blue-400 mb-[5px]">
-                    The Socializo Method
+                    The Pixelatech Method
                   </h3>
                   <p className="text-gray-300">
-                    Custom AI Solutions Designed for Your Business
+                    Smart Digital Solutions Designed for Your Business
                   </p>
                 </div>
                 <div className="space-y-6">
+                  {/* <div className="sec3-box-outer3-border">
+                    <div className="text-green-400 flex items-center gap-[10px]">
+                      <CheckIcon className="w-[20px] h-[20px] flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-semibold mb-[5px]">
+                          Tailored Strategies
+                        </h4>
+                        <p className="text-gray-300">
+                          We take the time to understand your audience and craft
+                          campaigns that connect—whether it’s through websites,
+                          ads, or social media—so your brand makes a real
+                          impact.
+                        </p>
+                      </div>
+                    </div>
+                  </div> */}
                   <div className="sec3-box-outer3-border">
                     <div className="text-green-400 flex items-center gap-[10px]">
                       <CheckIcon className="w-[20px] h-[20px] flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-semibold mb-[5px]">
-                          Tailored Communication
+                          Web Development That Works
                         </h4>
                         <p className="text-gray-300">
-                          Our AI custom solutions analyze your unique audience
-                          and craft messages that truly connect, making every
-                          interaction more meaningful and relevant.
+                          Our websites are fast, responsive, and designed to
+                          convert. From business sites to e-commerce, we build
+                          platforms that support your growth.
                         </p>
                       </div>
                     </div>
@@ -645,12 +793,12 @@ const index = () => {
                       <CheckIcon className="w-[20px] h-[20px] flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-semibold mb-[5px]">
-                          Smart Workflow Automation
+                          Google Ads & PPC Management
                         </h4>
                         <p className="text-gray-300">
-                          We build AI systems that organize, prioritize, and
-                          automate your daily business tasks—helping you save
-                          time and reduce manual work.
+                          We run targeted ad campaigns that deliver measurable
+                          results—driving traffic, leads, and sales for your
+                          business.
                         </p>
                       </div>
                     </div>
@@ -660,12 +808,12 @@ const index = () => {
                       <CheckIcon className="w-[20px] h-[20px] flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-semibold mb-[5px]">
-                          Multi-Platform Integration
+                          SEO for Visibility
                         </h4>
                         <p className="text-gray-300">
-                          Our custom AI seamlessly connects with your favorite
-                          tools—email, CRM, chat, and more—so your business runs
-                          smoothly across every channel.
+                          We optimize your site to rank higher on Google,
+                          bringing more traffic and helping you stay ahead of
+                          your competition.
                         </p>
                       </div>
                     </div>
@@ -675,12 +823,12 @@ const index = () => {
                       <CheckIcon className="w-[20px] h-[20px] flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-semibold mb-[5px]">
-                          Real-Time Data & Insights
+                          Social Media Marketing
                         </h4>
                         <p className="text-gray-300">
-                          Get instant access to clear, actionable insights. Our
-                          dashboards show you exactly how your AI solutions are
-                          performing, so you can make smarter decisions.
+                          From Facebook to Instagram, we create engaging
+                          campaigns that grow your audience and build stronger
+                          connections.
                         </p>
                       </div>
                     </div>
@@ -690,12 +838,26 @@ const index = () => {
                       <CheckIcon className="w-[20px] h-[20px] flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-semibold mb-[5px]">
-                          Guaranteed Results
+                          Lead Generation That Converts
                         </h4>
                         <p className="text-gray-300">
-                          We stand by our custom AI solutions. If you don’t see
-                          real improvements in your business within 60 days,
-                          we’ll give you your money back.
+                          Our strategies are designed to turn visitors into real
+                          customers, filling your pipeline with qualified leads.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  {/* <div className="sec3-box-outer3-border">
+                    <div className="text-green-400 flex items-center gap-[10px]">
+                      <CheckIcon className="w-[20px] h-[20px] flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-semibold mb-[5px]">
+                          Clear Reporting
+                        </h4>
+                        <p className="text-gray-300">
+                          We keep things transparent with easy-to-understand
+                          reports so you always know how your campaigns are
+                          performing.
                         </p>
                       </div>
                     </div>
@@ -705,32 +867,41 @@ const index = () => {
                       <CheckIcon className="w-[20px] h-[20px] flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-semibold mb-[5px]">
-                          24/7 Intelligent Support
+                          Dedicated Support
                         </h4>
                         <p className="text-gray-300">
-                          Your AI works around the clock—handling tasks,
-                          answering questions, and supporting your team—so you
-                          can focus on growing your business.
+                          Our team is here for you every step of the way—helping
+                          you scale with confidence.
                         </p>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
-                <div className="mt-8 p-6 bg-gradient-to-r from-green-900/30 to-blue-900/30 rounded-xl border border-green-400/30">
-                  <div className="text-center py-[10px]">
-                    <div className="text-3xl font-bold text-green-400 mb-[5px]">
-                      Unlock smarter operations within 90 days
+
+                <div className="mt-8 p-6 bg-gradient-to-r from-green-900/30 to-blue-900/30 rounded-xl border border-green-400/30 transition hover:scale-105 hover:shadow-lg cursor-pointer">
+                  <a
+                    href="https://calendly.com/abbdulsamadhere/30min?back=1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="no-underline text-[white] cursor-[pointer]   "
+                  >
+                    <div className="text-center py-[10px]">
+                      <div className="text-3xl font-bold text-green-400 mb-[5px]">
+                        Unlock smarter operations within 90 days
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
               {/* Traditional Methods */}
               <div className="sec3-box-outer3">
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-red-400 mb-[5px]">
-                    Traditional Tech & Consulting Agencies
+                    Traditional Marketing & Tech Agencies
                   </h3>
-                  <p className="text-gray-300">Outdated Manual Approaches</p>
+                  <p className="text-gray-300">
+                    Outdated Approaches That Hold Businesses Back
+                  </p>
                 </div>
 
                 <div className="space-y-6">
@@ -750,12 +921,12 @@ const index = () => {
                       </svg>
                       <div>
                         <h4 className="font-semibold mb-[5px]">
-                          One-Size-Fits-All Solutions
+                          Generic Strategies
                         </h4>
                         <p className="text-gray-300">
-                          Rely on generic software or consulting templates that
-                          don’t address your business’s unique needs, leading to
-                          limited impact and missed opportunities.
+                          Rely on one-size-fits-all campaigns that fail to
+                          connect with your unique audience—resulting in low
+                          impact and wasted budgets.
                         </p>
                       </div>
                     </div>
@@ -777,12 +948,11 @@ const index = () => {
                       </svg>
                       <div>
                         <h4 className="font-semibold mb-[5px]">
-                          Manual Task Management
+                          Slow & Manual Workflows
                         </h4>
                         <p className="text-gray-300">
-                          Depend on human effort for repetitive tasks,
-                          increasing the risk of errors, inefficiency, and
-                          wasted resources.
+                          Depend on outdated methods that take too much time and
+                          often lead to inefficiency or missed opportunities.
                         </p>
                       </div>
                     </div>
@@ -804,12 +974,12 @@ const index = () => {
                       </svg>
                       <div>
                         <h4 className="font-semibold mb-[5px]">
-                          Siloed Systems
+                          Disconnected Marketing Channels
                         </h4>
                         <p className="text-gray-300">
-                          Operate with disconnected tools and platforms, making
-                          it hard to streamline workflows or share data across
-                          your organization.
+                          Operate with separate tools and platforms, making it
+                          hard to create consistent messaging or track
+                          performance across channels.
                         </p>
                       </div>
                     </div>
@@ -831,12 +1001,12 @@ const index = () => {
                       </svg>
                       <div>
                         <h4 className="font-semibold mb-[5px]">
-                          Surface-Level Reporting
+                          Basic Reporting Only
                         </h4>
                         <p className="text-gray-300">
-                          Offer only basic reports and metrics, without deep
-                          analysis or actionable insights to drive smarter
-                          business decisions.
+                          Provide surface-level numbers without clear
+                          insights—leaving you guessing about what’s really
+                          driving results.
                         </p>
                       </div>
                     </div>
@@ -858,12 +1028,11 @@ const index = () => {
                       </svg>
                       <div>
                         <h4 className="font-semibold mb-[5px]">
-                          No Results Assurance
+                          No Guarantee of Success
                         </h4>
                         <p className="text-gray-300">
-                          Charge fixed fees with no guarantee of real business
-                          improvements, leaving you to bear the risk of
-                          underwhelming outcomes.
+                          Charge fixed fees with no promise of measurable
+                          growth, putting all the risk on you.
                         </p>
                       </div>
                     </div>
@@ -885,12 +1054,11 @@ const index = () => {
                       </svg>
                       <div>
                         <h4 className="font-semibold mb-[5px]">
-                          Limited Availability
+                          Limited Support
                         </h4>
                         <p className="text-gray-300">
-                          Support and services are restricted to business hours,
-                          missing chances to solve problems or respond to needs
-                          in real time.
+                          Offer help only during business hours, leaving you
+                          without answers when you need them most.
                         </p>
                       </div>
                     </div>
@@ -916,11 +1084,20 @@ const index = () => {
                   Ready to Experience the Difference?
                 </h3>
                 <p className="text-gray-300 my-[10px] max-w-2xl mx-auto">
-                  Join hundreds of companies who have already made the switch to
-                  AI-powered lead generation and are seeing 300% better results.
+                  Join businesses that trust Pixelatech for web development,
+                  SEO, social media, Google Ads, and lead generation—and see
+                  real growth in traffic, leads, and sales.
                 </p>
                 <button className="cta-button my-[20px]">
-                  Get Started Today
+                  <a
+                    href="https://calendly.com/abbdulsamadhere/30min?back=1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="no-underline text-[black]"
+                  >
+                    {" "}
+                    Get Started Today
+                  </a>
                 </button>
               </div>
             </div>
@@ -932,29 +1109,6 @@ const index = () => {
       {/* FAQ   */}
       <section id="faq" className="section4-container4 ">
         {/* Enhanced Background Effects */}
-        <div className="floating-shapes">
-          <div className="shape"></div>
-          <div className="shape"></div>
-          <div className="shape"></div>
-          <div className="shape"></div>
-          <div className="shape"></div>
-        </div>
-
-        <div className="morphing-shapes">
-          <div className="morph"></div>
-          <div className="morph"></div>
-        </div>
-
-        <div className="sparkle-container">
-          <div className="sparkle"></div>
-          <div className="sparkle"></div>
-          <div className="sparkle"></div>
-          <div className="sparkle"></div>
-          <div className="sparkle"></div>
-          <div className="sparkle"></div>
-          <div className="sparkle"></div>
-          <div className="sparkle"></div>
-        </div>
 
         <div className="section4-inner faq">
           <div className="sec1-h4 mt-[30px] mb-[15px]">
@@ -962,11 +1116,13 @@ const index = () => {
           </div>
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-[10px]">
-              Everything You Need to Know About Our AI Lead Generation System
+              Everything You Need to Know About Pixelatech
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Get answers to the most common questions about our process,
-              results, and guarantees
+              Get answers to the most common questions about our web
+              development, SEO, social media,Google Ads,
+              <br /> and lead generation services—how we work, the results you
+              can expect, and our commitment to your success.
             </p>
           </div>
 
@@ -996,232 +1152,9 @@ const index = () => {
       </section>
       {/* FAQ End  */}
 
-      {/* Blog   */}
-      <section className="blog-sectionContainer">
-        <div className="sec1-h4 z-1 my-[30px] mx-auto w-[min-content]">
-          <h4>Blog</h4>
-        </div>
-        <div className="card-container">
-          {/* left Side */}
-          <div className="left-blogCard flex items-center w-full">
-            {/* one */}
-            <div className="">
-              <Link
-                href="/pages/ai-dental-realstate"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="no-underline text-[white]"
-              >
-                <div className="sec1s-box1s row-card">
-                  <div className="mb-[20px] relative aspect-[1000/563] w-full overflow-hidden rounded-[10px]">
-                    <Image
-                      src="/assets/roboard.png"
-                      alt="ai-blog"
-                      fill
-                      className="absolute inset-0 w-full h-full object-fill"
-                    />
-                  </div>
-                  <div className="blog-card-text my-[30px]">
-                    <h3 className="text-[20px] font-bold">
-                      How AI Solutions Are <br />
-                      Transforming Dental Clinics and Real Estate Businesses
-                    </h3>
-                  </div>
-                  <div className=" w-full flex items-center justify-end my-[10px]">
-                    <p className="text-[right]">8-Aug-2025</p>
-                  </div>
-                </div>
-              </Link>
-            </div>
-            {/* two */}
-            <div className="">
-              <Link
-                href="/pages/houston-lead-generation"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="no-underline text-[white]"
-              >
-                <div className="sec1s-box1s row-card">
-                  <div className="">
-                    <div className="mb-[20px] relative aspect-[1000/563] w-full overflow-hidden rounded-[10px]">
-                      <Image
-                        src="/assets/lead-generate.png"
-                        alt="lead-generate"
-                        fill
-                        className="absolute inset-0 w-full h-full object-fill"
-                      />
-                    </div>
-                    <div className="blog-card-text my-[30px]">
-                      <h3 className="text-[20px] font-bold">
-                        Houston Lead Generation Company for Explosive Growth!
-                      </h3>
-                    </div>
-                    <div className=" w-full flex items-center justify-end my-[10px]">
-                      <p className="text-[right]">Jul 13, 2025</p>
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            </div>
-          </div>
-          {/* right Side */}
-          <div className="right-blogCard">
-             {/* one */}
-             <Link
-              href="/pages/agentic-ai-trends"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-[white]"
-            >
-              <div className="sec1s-box1s column-card one">
-                <div className="column-cards flex flex-row items-center gap-[15px] w-full">
-                  <div className="relative aspect-[1000/563] w-full overflow-hidden rounded-[10px] max-w-[50%]">
-                    <Image
-                      src="/assets/ai-trends-2025.png"
-                      alt="agentic-ai-trends"
-                      fill
-                      className="absolute inset-0 w-full h-full object-cover"
-                    />
-                  </div>
-                  {/* 1 */}
-                  <div className="max-w-[50%]">
-                    <h3 className="text-[14px] font-bold">
-                    Agentic AI Trends 2025
-                    </h3>
-                  </div>
-                  {/* 2 */}
-                </div>
-                <div className=" w-full flex justify-end mb-[10px]">
-                  <p className="text-[right]">September 18, 2025</p>
-                </div>
-              </div>
-            </Link>
-             {/* two */}
-             <Link
-              href="/pages/ai-agent-development"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-[white]"
-            >
-              <div className="sec1s-box1s column-card one">
-                <div className="column-cards flex flex-row items-center gap-[15px] w-full">
-                  <div className="relative aspect-[1000/563] w-full overflow-hidden rounded-[10px] max-w-[50%]">
-                    <Image
-                      src="/assets/ai-agents.png"
-                      alt="ai-agents"
-                      fill
-                      className="absolute inset-0 w-full h-full object-cover"
-                    />
-                  </div>
-                  {/* 1 */}
-                  <div className="max-w-[50%]">
-                    <h3 className="text-[14px] font-bold">
-                     AI Agent Development: The Future of Smart Business
-                    </h3>
-                  </div>
-                  {/* 2 */}
-                </div>
-                <div className=" w-full flex justify-end mb-[10px]">
-                  <p className="text-[right]">August 28, 2025</p>
-                </div>
-              </div>
-            </Link>
-            {/* three */}
-            <Link
-              href="/pages/meta-ads-houston"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-[white]"
-            >
-              <div className="sec1s-box1s column-card one">
-                <div className="column-cards flex flex-row items-center gap-[15px] w-full ">
-                  <div className="relative aspect-[1000/563] w-full overflow-hidden rounded-[10px] max-w-[50%]">
-                    <Image
-                      src="/assets/meta-add.png"
-                      alt="meta"
-                      fill
-                      className="absolute inset-0 w-full h-full object-cover"
-                    />
-                    {/* hover:scale-105 transition-transform duration-500 */}
-                  </div>
-                  {/* 1 */}
-                  <div className="max-w-[50%]">
-                    <h3 className="text-[14px] font-bold">
-                      Meta Ads in Houston: How to Actually Get Sales Without
-                      Losing Your Mind
-                    </h3>
-                  </div>
-
-                  {/* 2 */}
-                </div>
-                <div className=" w-full flex items-center justify-end my-[10px]">
-                  <p className="text-[right]">April 16, 2025</p>
-                </div>
-              </div>
-            </Link>
-            {/* four */}
-            <Link
-              href="/pages/from-montrose-midtown"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline text-[white]"
-            >
-              <div className="sec1s-box1s column-card one">
-                <div className="column-cards flex flex-row items-center gap-[15px] w-full">
-                  <div className="relative aspect-[1000/563] w-full overflow-hidden rounded-[10px] max-w-[50%]">
-                    <Image
-                      src="/assets/google-add.png"
-                      alt="socailmedia"
-                      fill
-                      className="absolute inset-0 w-full h-full object-cover"
-                    />
-                  </div>
-                  {/* 1 */}
-                  <div className="max-w-[50%]">
-                    <h3 className="text-[14px] font-bold">
-                      From Montrose to Midtown: Why Houston Can't Stop Clicking
-                      Facebook & Instagram Ads
-                    </h3>
-                  </div>
-                  {/* 2 */}
-                </div>
-                <div className=" w-full flex justify-end my-[10px]">
-                  <p className="text-[right]">Febuary 21, 2025</p>
-                </div>
-              </div>
-            </Link>
-           
-          </div>
-        </div>
-      </section>
-      {/* Blog End  */}
-
       {/* Contact   */}
       <section id="contact" className="contact-form-section">
         {/* Enhanced Background Effects */}
-        <div className="floating-shapes">
-          <div className="shape"></div>
-          <div className="shape"></div>
-          <div className="shape"></div>
-          <div className="shape"></div>
-          <div className="shape"></div>
-        </div>
-
-        <div className="morphing-shapes">
-          <div className="morph"></div>
-          <div className="morph"></div>
-        </div>
-
-        <div className="sparkle-container">
-          <div className="sparkle"></div>
-          <div className="sparkle"></div>
-          <div className="sparkle"></div>
-          <div className="sparkle"></div>
-          <div className="sparkle"></div>
-          <div className="sparkle"></div>
-          <div className="sparkle"></div>
-          <div className="sparkle"></div>
-        </div>
 
         <div className="max-w-4xl mx-auto px-4 py-20 contact">
           <div className="text-center mb-12">
@@ -1229,12 +1162,13 @@ const index = () => {
               <h4 className="gradient-text ">Get In Touch</h4>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold my-[10px]">
-              Ready to Transform Your Lead Generation?
+              Ready to Transform Your Digital Presence?
             </h2>
-            <p className="text-xl text-gray-300 max-w-[660px] mt-[10px] mb-[40px] mx-auto">
-              Book a free strategy call or send us a message. We will analyze
-              your current approach and show you exactly how to get 50+
-              qualified leads per month.
+            <p className="text-xl text-gray-300 text-left max-w-[660px] mt-[10px] mb-[40px] mx-auto">
+              Book a free strategy call or send us a message. Our team will
+              review your current website and marketing efforts, then show you
+              exactly how to get more traffic, higher rankings, stronger social
+              engagement, and a steady flow of qualified leads.
             </p>
           </div>
 
@@ -1267,10 +1201,10 @@ const index = () => {
                       <div className="flex items-center justify-start gap-[10px]">
                         <p className="font-semibold">Email Us</p>
                         <a
-                          href="mailto:info@socializo.co"
+                          href="mailto:info@Pixelatech.co"
                           className="no-underline text-blue-400 hover:text-blue-300 transition-colors text-[white] line-none"
                         >
-                          info@socializo.co
+                          info@Pixelatech.co
                         </a>
                       </div>
                     </div>

@@ -15,8 +15,8 @@
 //     }
 //     console.log(name, email, phone, message);
 //     const data = await resend.emails.send({
-//       from: "info@socializo.co", // apni verified email yahan dalna
-//       to: "info@socializo.co", // apna recipient email yahan dalna
+//       from: "info@Pixelatech.co", // apni verified email yahan dalna
+//       to: "info@Pixelatech.co", // apna recipient email yahan dalna
 //       subject: `New Contact Form Submission from ${name}`,
 //       html: `
 //         <h2>New Contact Form Submission</h2>
@@ -57,8 +57,8 @@ export async function POST(req: Request) {
     const { name, email, phone, message } = await req.json();
 
     const data = await resend.emails.send({
-      from: "info@ai.socializo.co", // sender tumhari domain email (verified)
-      to: "info@socializo.co", // 👈 Gmail inbox for receiving
+      from: "info@ai.Pixelatech.co", // sender tumhari domain email (verified)
+      to: "info@Pixelatech.co", // 👈 Gmail inbox for receiving
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <p><strong>Name:</strong> ${name}</p>

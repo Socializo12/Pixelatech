@@ -45,7 +45,7 @@ const Footer = () => {
           <div className=" p-[0] group flex flex-col  items-center">
             <Image
               src="/assets/logo.png"
-              alt="Socializo Logo"
+              alt="Pixelatech Logo"
               width={300}
               height={70}
               className="mx-auto filter drop-shadow-lg rounded-[15px]"
@@ -68,10 +68,10 @@ const Footer = () => {
               <div>
                 <h4 className="font-semibold text-white mb-[5px]">Email Us</h4>
                 <Link
-                  href="mailto:info@socializo.co"
+                  href="mailto:info@Pixelatech.co"
                   className="text-[white] py-[8px] mb-[5px] hover:text-blue-400 transition-colors text-[white] duration-300 text-lg"
                 >
-                  info@socializo.co
+                  info@Pixelatech.co
                 </Link>
                 <p className="text-sm text-gray-400 my-[5px]">
                   We respond within 24 hours
@@ -186,7 +186,7 @@ const Footer = () => {
             </h4>
             <div className="flex md:flex-wrap justify-center items-center md:justify-start gap-[20px] my-[20px]">
               <Link
-                href="https://www.linkedin.com/company/socializoco/"
+                href="https://www.linkedin.com/company/Pixelatechco/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-blue-600/20 rounded-full text-[white] hover:bg-blue-600/30 transition-colors group"
@@ -194,7 +194,7 @@ const Footer = () => {
                 <FaLinkedin size={30} color="#FFFF" />
               </Link>
               <Link
-                href="https://www.instagram.com/socializo.co/?hl=en"
+                href="https://www.instagram.com/Pixelatech.co/?hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-blue-600/20 rounded-full hover:bg-blue-600/30 text-[white] transition-colors group "
@@ -208,7 +208,7 @@ const Footer = () => {
                 {/* <FaInstagramSquare size={30} color="#FFFF"  className="border-none"/> */}
               </Link>
               <Link
-                href="https://www.facebook.com/p/Socializo-100067015986574/"
+                href="https://www.facebook.com/p/Pixelatech-100067015986574/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-blue-600/20 rounded-full hover:bg-blue-600/30 text-[white] transition-colors group"

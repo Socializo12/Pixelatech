@@ -141,7 +141,7 @@ const Blog = () => {
             </h1>
             <p className="my-[20px] text-[left]">
               Hey there, Houston business owners! Want more customers knocking
-              on your door? You are in the right place. At Socializo.co, we are
+              on your door? You are in the right place. At Pixelatech.co, we are
               your friendly neighborhood experts at finding perfect customers
               for your business.
             </p>

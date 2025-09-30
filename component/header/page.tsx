@@ -138,7 +138,18 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
-            <button className="cta-button">Lets Talk</button>
+            <button className="cta-button">
+              
+              <a
+                href="https://calendly.com/abbdulsamadhere/30min?back=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="no-underline text-[white] cursor-pointer"
+              >
+              
+                Lets Talk{" "}
+              </a>
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -214,8 +225,16 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-          <button className="mobile-cta-button mt-4" onClick={toggleMenu}>
-            Lets Talk
+          <button className="mobile-cta-button mt-4">
+            <a
+              href="https://calendly.com/abbdulsamadhere/30min?back=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="no-underline text-[white] cursor-pointer"
+            >
+              {" "}
+              Lets Talk{" "}
+            </a>
           </button>
         </div>
       </nav>

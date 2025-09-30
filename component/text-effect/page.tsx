@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import TextSlider from "../slider/page";
 
-const keywords = ["AI Knowledge", "Organized Intelligence", "Research Tools"];
+const keywords = ["Google Ads", "Web Development", "Seo", "Socail Media Marketing", "Lead Generation"];
 
 const TextEffect = () => {
   const [wordIndex, setWordIndex] = useState(0);
@@ -12,7 +12,7 @@ const TextEffect = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setWordIndex((prev) => (prev + 1) % keywords.length);
-    }, 1500);
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []);
@@ -22,7 +22,7 @@ const TextEffect = () => {
       <div className="h-auto w-full bg-black flex items-center justify-center my-[60px] text-white text-center">
         <div className="">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-snug text-center">
-          Empowering Resilient AI Agents for Business Intelligence
+         At Pixelatech, we empower businesses with smart digital solutions that deliver results.
             <div className="relative h-[60px] mt-8 flex justify-center">
               <AnimatePresence mode="wait">
                 <motion.span

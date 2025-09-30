@@ -49,14 +49,14 @@ const Section1 = () => {
                   Agentic AI
                 </h2>
                 <p className="text-lg md:text-xl text-zinc-400 mb-[12px] text-[left]">
-                  Welcome to Socializo, your one-stop destination for
+                  Welcome to Pixelatech, your one-stop destination for
                   cutting-edge AI agent development and intelligent automation.
                   As a leading AI agentic solutions company, we specialize in
                   crafting custom AI agents that transform how businesses
                   interact with data, users, and workflows. Whether you need
                   tailored AI agent development services, a trusted partner for
                   scalable AI solutions, or innovative automation to streamline
-                  your operations, Socializo delivers expertise and results at
+                  your operations, Pixelatech delivers expertise and results at
                   every stage.
                 </p>
 
@@ -102,14 +102,14 @@ const Section1 = () => {
                   Web Development
                 </h1>
                 <p className="text-lg md:text-xl text-zinc-400 mb-[12px] text-[left]">
-                  Welcome to Socializo, your one-stop destination for
+                  Welcome to Pixelatech, your one-stop destination for
                   cutting-edge AI agent development and intelligent automation.
                   As a leading AI agentic solutions company, we specialize in
                   crafting custom AI agents that transform how businesses
                   interact with data, users, and workflows. Whether you need
                   tailored AI agent development services, a trusted partner for
                   scalable AI solutions, or innovative automation to streamline
-                  your operations, Socializo delivers expertise and results at
+                  your operations, Pixelatech delivers expertise and results at
                   every stage.
                 </p>
 
@@ -158,7 +158,7 @@ const Section1 = () => {
                   Social Media Marketing
                 </h1>
                 <p className="text-lg md:text-xl text-zinc-400 mb-[12px] text-[left]">
-                  At Socializo, we help brands grow with targeted advertising
+                  At Pixelatech, we help brands grow with targeted advertising
                   across Facebook, Instagram, TikTok, Snapchat, and Meta
                   platforms. Whether you need a Facebook ads company to drive
                   conversions, an Instagram ads agency to boost engagement, a
@@ -214,7 +214,7 @@ const Section1 = () => {
                   Google Ads
                 </h1>
                 <p className="text-lg md:text-xl text-zinc-400 mb-[12px] text-[left]">
-                  Socializo is a top Houston Google Ads agency specializing in
+                  Pixelatech is a top Houston Google Ads agency specializing in
                   expert PPC management and campaign optimization for real
                   estate, property management, and more. Our certified
                   consultants create high-ROI, data-driven Google Ads strategies
@@ -289,7 +289,7 @@ const Section1 = () => {
             <div className="sec2-box2-inner">
               <div className="sec2-box2-outer">
                 <p>
-                  Socializo transformed our lead generation completely. Within
+                  Pixelatech transformed our lead generation completely. Within
                   60 days, we saw a 250% increase in qualified appointments.
                   Their AI-powered personalization is incredible - prospects
                   actually respond because the messages feel genuinely relevant
@@ -303,7 +303,7 @@ const Section1 = () => {
               <div className="sec2-box2-outer">
                 <p>
                   The ROI has been phenomenal. We replaced our entire SDR team
-                  with Socializo system and not only saved $200K annually but
+                  with Pixelatech system and not only saved $200K annually but
                   also generated 3x more qualified leads. The automation is so
                   sophisticated that prospects think they are talking to a human
                   sales rep.
@@ -359,10 +359,10 @@ const Section1 = () => {
                   Abdul Samad
                 </span>
                 <br />
-                <span className="text-sm">CEO, Socializo</span>
+                <span className="text-sm">CEO, Pixelatech</span>
               </h6>
               <a
-                href="https://www.linkedin.com/company/socializoco/"
+                href="https://www.linkedin.com/company/Pixelatechco/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-300 transition-colors"
@@ -428,7 +428,7 @@ const Section1 = () => {
 
         <div className="text-center mt-[30px] mb-[50px]">
           <h2 className="text-3xl md:text-4xl font-bold pb-[10px]">
-            Why Choose Socializo Over Traditional Methods?
+            Why Choose Pixelatech Over Traditional Methods?
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             See how our custom AI solutions outperform traditional technology
@@ -437,11 +437,11 @@ const Section1 = () => {
         </div>
         <div className="max-w-7xl mx-auto">
           <div className="sec3-box-inner3">
-            {/* The Socializo Method */}
+            {/* The Pixelatech Method */}
             <div className="sec3-box-outer3">
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-blue-400 mb-[5px]">
-                  The Socializo Method
+                  The Pixelatech Method
                 </h3>
                 <p className="text-gray-300">
                   Custom AI Solutions Designed for Your Business

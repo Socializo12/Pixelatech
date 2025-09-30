@@ -1,11 +1,11 @@
 "use client";
 const TextEffect = () => {
   const texts = [
-    "AI Agentic Solutions for Smarter Business Growth  ",
-    "Automation That Delivers Results ",
-    "Future-Ready B2B Systems ",
-    "Intelligent Automation ",
-    "Data-Driven Insights ",
+    "Intelligent SEO & PPC Strategies ",
+    "Web Solutions That Deliver Real Results ",
+    "Smart Digital Marketing for Faster Growth ",
+    "Data-Driven Marketing for Better ROI ",
+    "Future-Ready Websites & Campaigns ",
   ];
 
   return (

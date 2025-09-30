@@ -6,7 +6,7 @@ import "./style.css";
 
 export const metadata = {
   title: "Texas AI Marketing Agency | AI Agents, Google Ads & Lead Gen Experts",
-  description: "Texas businesses: Get more calls, customers, and sales with Socializo AI. #1 AI-powered agency for local SEO, Google Ads, and lead generation"
+  description: "Texas businesses: Get more calls, customers, and sales with Pixelatech AI. #1 AI-powered agency for local SEO, Google Ads, and lead generation"
 };
 
 
@@ -22,7 +22,7 @@ const markdownContent = `
 
 Forget boring sales pitches. Great ads are like talking to a neighbor. We're Facebook ads experts who make ads so fun, folks don't even realize they're clicking "Buy!"
 
-## What Socializo.co Does Best
+## What Pixelatech.co Does Best
 
 1. We're Your Facebook Ads Company in Houston
 2. Set It & Forget It" Ads: We handle everything ideas, photos, writing, and tracking.
@@ -43,7 +43,7 @@ Forget boring sales pitches. Great ads are like talking to a neighbor. We're Fac
 
 We get it—budgets matter! Here's the good news:
 
-* Socializo is a Flexible Facebook Ad Agency Pricing: Pay for what you NEED (no fancy extras)
+* Pixelatech is a Flexible Facebook Ad Agency Pricing: Pay for what you NEED (no fancy extras)
 
 Free Consultation first: Tell us your goals, and we'll plan a budget that fits.
 
@@ -67,7 +67,7 @@ Free Consultation first: Tell us your goals, and we'll plan a budget that fits.
 
 ### Ready to Grow? Let’s Talk!
 
-Houston businesses don’t wait for luck—they make it. Whether you need a Facebook ad management agency to fix slow ads or an Instagram ad company to boost your posts, Socializo is here.
+Houston businesses don’t wait for luck—they make it. Whether you need a Facebook ad management agency to fix slow ads or an Instagram ad company to boost your posts, Pixelatech is here.
 
 
 
