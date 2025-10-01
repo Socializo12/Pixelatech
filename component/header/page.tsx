@@ -138,18 +138,16 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
-            <button className="cta-button">
-              
               <a
                 href="https://calendly.com/abbdulsamadhere/30min?back=1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="no-underline text-[white] cursor-pointer"
               >
-              
-                Lets Talk{" "}
-              </a>
+            <button className="cta-button text-[white] ">
+               Lets Talk
             </button>
+              </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -225,17 +223,16 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-          <button className="mobile-cta-button mt-4">
             <a
               href="https://calendly.com/abbdulsamadhere/30min?back=1"
               target="_blank"
               rel="noopener noreferrer"
               className="no-underline text-[white] cursor-pointer"
             >
-              {" "}
-              Lets Talk{" "}
-            </a>
+          <button className="mobile-cta-button mt-4">
+              Lets Talk
           </button>
+            </a>
         </div>
       </nav>
     </div>
