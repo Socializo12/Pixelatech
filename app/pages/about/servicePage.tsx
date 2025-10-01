@@ -45,38 +45,38 @@ const Section1 = () => {
             </div>
             <div className="main-container-grid mx-auto gap-[20px] p-8 md:p-12">
               {/* One */}
-              <div className="px-[20px] f-email content-box">
+              <div className="px-[20px] f-email flex justify-center items-center content-box">
                 <p className="text-2xl md:text-3xl text-[20px] text-center  font-bold my-[20px]">
                   Lead generation in Birmingham
                 </p>
               </div>
               {/* Second */}
-              <div className="px-[20px] f-email content-box">
+              <div className="px-[20px] f-email flex justify-center items-center content-box">
                 <p className="text-2xl md:text-3xl text-[20px] text-center  font-bold my-[20px]">
                   B2B lead generation services
                 </p>
               </div>
               {/* Third */}
-              <div className="px-[20px] f-email content-box">
+              <div className="px-[20px] f-email flex justify-center items-center content-box">
                 <p className="text-2xl md:text-3xl text-[20px] text-center  font-bold my-[20px]">
                   Real estate and legal lead generation
                 </p>
               </div>
               {/* four */}
-              <div className="px-[20px] f-email content-box">
+              <div className="px-[20px] f-email flex justify-center items-center content-box">
                 <p className="text-2xl md:text-3xl text-[20px] text-center  font-bold my-[20px]">
                   Facebook & Instagram ads for eCommerce
                 </p>
               </div>
               {/* five */}
-              <div className="px-[20px] f-email content-box">
+              <div className="px-[20px] f-email flex justify-center items-center content-box">
                 <p className="text-2xl md:text-3xl text-[20px] text-center  font-bold my-[20px]">
                   Google Ads for Real Estate, Dental Clinics, Restaurants,
                   Service based businesses & local businesses
                 </p>
               </div>
               {/* six */}
-              <div className="px-[20px] f-email content-box">
+              <div className="px-[20px] flex justify-center items-center f-email content-box">
                 <p className="text-2xl md:text-3xl text-[20px] text-center  font-bold my-[20px]">
                   Brand marketing & internet marketing in Birmingham
                 </p>

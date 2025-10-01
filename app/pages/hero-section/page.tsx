@@ -1105,11 +1105,9 @@ const index = () => {
         </section>
       </section>
       {/* Services End  */}
-
       {/* FAQ   */}
       <section id="faq" className="section4-container4 ">
         {/* Enhanced Background Effects */}
-
         <div className="section4-inner faq">
           <div className="sec1-h4 mt-[30px] mb-[15px]">
             <h4 className="gradient-text ">Frequently Asked Questions</h4>

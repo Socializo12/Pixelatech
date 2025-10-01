@@ -18,7 +18,7 @@
   gap: 8px;
   font-weight: 600;
   color: #ffffff;
-  margin-bottom: 8px;
+  margin: 10px 0px;
   font-size: 14px;
 }
 
@@ -129,9 +129,6 @@
   animation: spin 1s linear infinite;
 }
 
-.section4-container4{
-  margin-top:70px;
-}
 
 @keyframes spin {
   0% {

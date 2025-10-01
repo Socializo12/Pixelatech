@@ -42,7 +42,7 @@ const Footer = () => {
 
         {/* Contact Information Grid */}
         <div className="contact-grid">
-          <div className=" p-[0] group flex flex-col  items-center">
+          <div className=" p-[0] group  flex justify-center items-center  flex-col  items-center">
             <Image
               src="/assets/logo.png"
               alt="Pixelatech Logo"
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
 
           {/* Email */}
-          <div className="f-email group">
+          <div className="f-email group flex justify-center items-center ">
             <div className="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
               <div className="p-3 bg-blue-600/20 rounded-full group-hover:bg-blue-600/30 transition-colors">
                 <Mail className="w-6 h-6 text-blue-400 mb-[5px]" />
@@ -81,7 +81,7 @@ const Footer = () => {
           </div>
 
           {/* Phone */}
-          <div className="f-phone group">
+          <div className="f-phone group flex justify-center items-center ">
             <div className="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
               <div className="p-3 bg-blue-600/20 rounded-full group-hover:bg-blue-600/30 transition-colors">
                 <Phone className="w-6 h-6 text-blue-400 mb-[5px]" />
@@ -101,7 +101,7 @@ const Footer = () => {
             </div>
           </div>
           {/* Address */}
-          <div className="f-phone group">
+          <div className="f-phone group flex justify-center items-center ">
             <div className="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
               <div className="p-3 bg-blue-600/20 rounded-full group-hover:bg-blue-600/30 transition-colors">
                 <Home className="w-6 h-6 text-blue-400 mb-[5px]" />
