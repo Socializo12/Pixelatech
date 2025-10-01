@@ -1,5 +1,5 @@
 "use client";
-import { Phone, Mail, ArrowUp } from "lucide-react";
+import { Phone, Mail,Home, ArrowUp } from "lucide-react";
 import { FaLinkedin, FaFacebook } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
@@ -46,14 +46,14 @@ const Footer = () => {
             <Image
               src="/assets/logo.png"
               alt="Pixelatech Logo"
-              width={300}
+              width={250}
               height={70}
               className="mx-auto filter drop-shadow-lg rounded-[15px]"
             />
-            <h3 className="my-[20px]">
+            <h3 className="my-[20px] px-[10px]">
               Providing creative ideas for your business
             </h3>
-            <p className="px-[12px]">
+            <p className="px-[10px]">
               A Birmingham marketing squad for real businesses.Proudly wasting
               ad budgets since[2022](just kidding we hate waste).
             </p>
@@ -68,10 +68,10 @@ const Footer = () => {
               <div>
                 <h4 className="font-semibold text-white mb-[5px]">Email Us</h4>
                 <Link
-                  href="mailto:info@Pixelatech.co"
+                  href="mailto:info@thisispixelatech.com"
                   className="text-[white] py-[8px] mb-[5px] hover:text-blue-400 transition-colors text-[white] duration-300 text-lg"
                 >
-                  info@Pixelatech.co
+                  info@thisispixelatech.com
                 </Link>
                 <p className="text-sm text-gray-400 my-[5px]">
                   We respond within 24 hours
@@ -89,13 +89,33 @@ const Footer = () => {
               <div>
                 <h4 className="font-semibold text-white mb-[5px]">Call Us</h4>
                 <Link
-                  href="tel:+1 832-304-5611"
+                  href="tel:+1(000)000-000"
                   className="text-[white] py-[8px] hover:text-blue-400 mb-[5px] text-[white] transition-colors duration-300 text-lg"
                 >
-                  +1 832-304-5611
+                  +1(000)000-000
                 </Link>
                 <p className="text-sm text-gray-400 my-[5px]">
                   Mon-Fri, 9AM-6PM EST
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* Address */}
+          <div className="f-phone group">
+            <div className="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
+              <div className="p-3 bg-blue-600/20 rounded-full group-hover:bg-blue-600/30 transition-colors">
+                <Home className="w-6 h-6 text-blue-400 mb-[5px]" />
+              </div>
+              <div>
+                <h4 className="font-semibold text-white mb-[5px]">Address</h4>
+                {/* <Link
+                  href="tel:+1(000)000-000"
+                  className="text-[white] py-[8px] hover:text-blue-400 mb-[5px] text-[white] transition-colors duration-300 text-lg"
+                > */}
+                  {/* +1(000)000-000 */}
+                {/* </Link> */}
+                <p className="text-sm text-gray-400 my-[5px]">
+                 Address: Flat 36, 34 Ryland Street Ryland Street, Placido, Birmingham, England, B16 8DB
                 </p>
               </div>
             </div>
@@ -136,14 +156,7 @@ const Footer = () => {
                 </Link>
               </li>
           
-              {/* <li className="py-[10px] ">
-                 <NavLink
-                  href="#about"
-                  className="text-[white] no-underline  hover:text-blue-400 transition-colors duration-300"
-                >
-                  About Us
-                  
-              </li> */}
+           
               <li className="py-[10px]">
                 <Link
                   href="/pages/contact"

@@ -1,0 +1,122 @@
+/* General Section Styling */
+.section1-container {
+  /* background: #000; */
+  padding: 120px 20px;
+  color: #fff;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Headings */
+.gradient-text {
+  background: linear-gradient(90deg, #fcff34,#c1c431);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.section1-container h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.section1-container h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+/* Paragraphs */
+.section1-container p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #d4d4d4;
+  margin-bottom: 15px;
+}
+
+/* Info Cards */
+.section1-container .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.section1-container .grid div {
+  background: transparent;
+  padding: 24px;
+  border-radius: 14px;
+  border: 1px solid #fcff34;
+  transition: all 0.3s ease-in-out;
+}
+
+.section1-container .grid div:hover {
+  border-color: #c1c431;
+  transform: translateY(-4px);
+}
+
+/* Lists */
+.section1-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section1-container ul li {
+  font-size: 16px;
+  color: #d4d4d4;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* .section1-container ul li::before {
+  content: "✔";
+  color: #3b82f6;
+  font-weight: bold;
+  margin-right: 10px;
+} */
+
+/* CTA Button */
+.cta-button {
+  background: linear-gradient(45deg, #fcff34, #c1c431);
+  color: #0e0e0e;
+  padding: 14px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background: linear-gradient(60deg, #c1c431, #fcff34);
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section1-container h2 {
+    font-size: 28px;
+  }
+
+  .section1-container .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section1-container p {
+    font-size: 16px;
+  }
+
+  .cta-button {
+    width: 100%;
+    text-align: center;
+  }
+}
