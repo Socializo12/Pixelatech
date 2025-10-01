@@ -149,6 +149,14 @@ const Footer = () => {
               </li>
               <li className="py-[10px] text-[white] no-underline  hover:text-blue-400 transition-colors duration-300">
                 <Link
+                  href="/pages/faq"
+                  className="text-[white] no-underline  hover:text-blue-400 transition-colors duration-300"
+                >
+                  FAQ
+                </Link>
+              </li>
+              <li className="py-[10px] text-[white] no-underline  hover:text-blue-400 transition-colors duration-300">
+                <Link
                   href="/pages/about"
                   className="text-[white] no-underline  hover:text-blue-400 transition-colors duration-300"
                 >

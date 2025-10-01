@@ -119,12 +119,12 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href="/pages/blog"
+                  href="/pages/about"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[white]"
                 >
-                  Blog
+                  About
                 </Link>
               </li>
               <li>
@@ -204,12 +204,12 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="/pages/blog"
+                href="/pages/about"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[white]"
               >
-                Blog
+                About
               </Link>
             </li>
             <li>
