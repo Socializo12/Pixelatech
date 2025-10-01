@@ -1272,6 +1272,7 @@ const index = () => {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
+                      placeholder="Enter your Email"
                       className="form-input"
                       required
                       // className={`form-input ${errors.email ? "error" : ""}`}

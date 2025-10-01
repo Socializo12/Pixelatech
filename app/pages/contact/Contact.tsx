@@ -103,6 +103,7 @@ export default function ContactForm() {
                 value={formData.email}
                 onChange={handleChange}
                 className="form-input"
+                placeholder="Enter your Email"
                 required
                 // className={`form-input ${errors.email ? "error" : ""}`}
               />

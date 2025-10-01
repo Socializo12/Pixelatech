@@ -26,7 +26,7 @@
   width: 100%;
   padding: 16px 20px;
   background: rgba(255, 255, 255, 0.05);
-  border: 2px solid rgba(138, 165, 255, 0.2);
+  border: 1px solid rgba(234, 218, 9, 0.459);
   border-radius: 12px;
   color: #ffffff;
   font-size: 16px;
@@ -37,9 +37,9 @@
 
 .form-input:focus {
   outline: none;
-  border-color: #8aa5ff;
+  border-color: #f0ff22;
   background: rgba(255, 255, 255, 0.08);
-  box-shadow: 0 0 0 4px rgba(138, 165, 255, 0.1);
+  box-shadow: 0 0 0 4px rgba(243, 255, 138, 0.993);
   transform: translateY(-2px);
 }
 
@@ -84,7 +84,6 @@
   gap: 8px;
   position: relative;
   overflow: hidden;
-  /* box-shadow: 0 8px 25px rgba(41, 52, 255, 0.3); */
 }
 
 .form-submit-btn::before {
@@ -106,7 +105,7 @@
 
 .form-submit-btn:hover {
   transform: translateY(-3px);
-   box-shadow: 0 15px 40px rgb(249, 253, 0);
+   box-shadow: 0 15px 40px rgba(249, 253, 0,0.245);
   /* box-shadow: 0 12px 35px rgba(41, 52, 255, 0.5); */
 }
 
@@ -226,7 +225,7 @@
 
 /* Focus Visible for Accessibility */
 .form-input:focus-visible {
-  outline: 2px solid #8aa5ff;
+  outline: 1px solid #fbff00;
   outline-offset: 2px;
 }
 
