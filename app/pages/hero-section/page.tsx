@@ -240,17 +240,17 @@ const index = () => {
                   <p className="px-[5px] text-[20px] leading-[1.4] hero-subtitle"></p>
                 </div>
                 <div className="my-[10px] ">
-                  <button className="hero-cta-btn">
                     <a
                       href="https://calendly.com/abbdulsamadhere/30min?back=1"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="no-underline text-[black]"
                     >
-                      {" "}
+                  <button className="hero-cta-btn">
+                    
                       💡 Book a free 30 minutes consultation
-                    </a>
                   </button>
+                    </a>
                 </div>
                 <div className="flex items-center gap-6 text-sm text-gray-800 my-[20px] ">
                   <svg
@@ -1088,17 +1088,17 @@ const index = () => {
                   SEO, social media, Google Ads, and lead generation—and see
                   real growth in traffic, leads, and sales.
                 </p>
-                <button className="cta-button my-[20px]">
                   <a
                     href="https://calendly.com/abbdulsamadhere/30min?back=1"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="no-underline text-[black]"
                   >
-                    {" "}
+                <button className="cta-button my-[20px]">
+                 
                     Get Started Today
-                  </a>
                 </button>
+                  </a>
               </div>
             </div>
           </div>
