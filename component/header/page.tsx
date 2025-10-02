@@ -40,24 +40,7 @@ const Header = () => {
 
   return (
     <div className="container">
-      {/* Background Effects */}
-      <div className="floating-shapes">
-        <div className="shape"></div>
-        <div className="shape"></div>
-        <div className="shape"></div>
-        <div className="shape"></div>
-        <div className="shape"></div>
-      </div>
-      <div className="morphing-shapes">
-        <div className="morph"></div>
-        <div className="morph"></div>
-      </div>
-      <div className="sparkle-container">
-        {Array.from({ length: 8 }).map((_, i) => (
-          <div key={i} className="sparkle"></div>
-        ))}
-      </div>
-
+      
       {/* Navbar */}
       <nav className={`sticky-navbar ${isScrolled ? "scrolled" : ""}`}>
         <div className="navbar-container">
@@ -69,7 +52,7 @@ const Header = () => {
                 alt="Logo"
                 width={280}
                 height={65}
-                className="rounded-[15px]"
+                className=" inset-0 w-[280px] h-[65px] object-cover "
               />
             </Link>
           </div>

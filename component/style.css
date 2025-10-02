@@ -17,28 +17,16 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  
-  /* Primary Theme Colors (Yellow) */
-  --primary-yellow: #ecde14f1;   /* Bright yellow */
-  --secondary-yellow: #fde047; /* Soft yellow */
-  --dark-yellow: #78350f;      /* Deep golden-brown */
-  
-  /* Text + Neutral */
+  --primary-yellow: #ecde14f1;  
+  --secondary-yellow: #fde047; 
+  --dark-yellow: #78350f;     
   --text-gray: #a0a0a0;
-  
-  /* Gradients */
   --gradient-primary: linear-gradient(45deg, var(--primary-yellow), var(--secondary-yellow));
-  /* --gradient-dark: linear-gradient(135deg, rgba(39, 29, 10, 0.85), rgba(0, 0, 0, 0.9)); */
-   /* --gradient-primary: linear-gradient(45deg, var(--primary-blue), var(--secondary-blue)); */
   --gradient-dark: linear-gradient(135deg, rgba(17, 18, 35, 0.8), rgba(0, 0, 0, 0.9));
-  
-  /* Borders */
   --border-color: rgba(255, 253, 2, 0.163);
   --border1: linear-gradient(45deg, rgba(251, 191, 36, 0.8), rgba(253, 224, 71, 0.6));
-  
-  /* Hover Effects */
   --hover-shadow: 0 15px 20px rgba(255, 252, 78, 0.2);
-  /* 0 8px 25px rgba(236, 252, 12, .387); */
+
 }
 
 
@@ -1262,10 +1250,11 @@ box-shadow: var(--hover-shadow);
   z-index: 2;
 }
 .sec3-box-outer3 {
-  background: linear-gradient(135deg, rgba(18, 20, 38, 0.9), rgba(0, 0, 0, 0.8));
+  background:transparent;
   border-radius: 20px;
   padding: clamp(25px, 4vw, 35px);
-  border: 1px solid rgba(138, 165, 255, 0.2);
+  /* border: 1px solid rgba(138, 165, 255, 0.2); */
+      border: 1px solid rgb(255 245 0 / 20%);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   animation: slideInLeft 1s ease-out;
   display: flex;
@@ -1403,6 +1392,7 @@ box-shadow: var(--hover-shadow);
 .section4-box-tab button:hover {
   color: var(--secondary-blue);
 }
+
 .section4-box {
   width: 100%;
   max-width: 800px;
@@ -2247,10 +2237,12 @@ box-shadow: var(--hover-shadow);
   position: relative;
   overflow: hidden;
 }
+.border-colors{
+      border: 1px solid rgb(255 245 0 / 20%);
+}
 
 /* Large Desktop */
 @media (min-width: 1400px) {
-
   .navbar-container,
   .hero-main,
   .section1-container,

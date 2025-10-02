@@ -21,7 +21,7 @@ const Footer = () => {
               alt="Pixelatech Logo"
               width={250}
               height={70}
-              className="mx-auto filter drop-shadow-lg rounded-[15px]"
+              className=" inset-0 w-[280px] h-[65px] object-cover "
             />
             <h3 className="my-[20px] px-[10px]">
               Providing creative ideas for your business

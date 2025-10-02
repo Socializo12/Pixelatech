@@ -844,41 +844,14 @@ const index = () => {
                           Our strategies are designed to turn visitors into real
                           customers, filling your pipeline with qualified leads.
                         </p>
+                       
                       </div>
                     </div>
                   </div>
-                  {/* <div className="sec3-box-outer3-border">
-                    <div className="text-green-400 flex items-center gap-[10px]">
-                      <CheckIcon className="w-[20px] h-[20px] flex-shrink-0 mt-1" />
-                      <div>
-                        <h4 className="font-semibold mb-[5px]">
-                          Clear Reporting
-                        </h4>
-                        <p className="text-gray-300">
-                          We keep things transparent with easy-to-understand
-                          reports so you always know how your campaigns are
-                          performing.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="sec3-box-outer3-border">
-                    <div className="text-green-400 flex items-center gap-[10px]">
-                      <CheckIcon className="w-[20px] h-[20px] flex-shrink-0 mt-1" />
-                      <div>
-                        <h4 className="font-semibold mb-[5px]">
-                          Dedicated Support
-                        </h4>
-                        <p className="text-gray-300">
-                          Our team is here for you every step of the way—helping
-                          you scale with confidence.
-                        </p>
-                      </div>
-                    </div>
-                  </div> */}
+                
                 </div>
 
-                <div className="mt-8 p-6 bg-gradient-to-r from-green-900/30 to-blue-900/30 rounded-xl border border-green-400/30 transition hover:scale-105 hover:shadow-lg cursor-pointer">
+                <div className="mt-[65px] border-colors f-emai p-6 bg-gradient-to-r from-green-900/30 to-blue-900/30 rounded-xl border border-yellow transition hover:scale-105 hover:shadow-lg cursor-pointer">
                   <a
                     href="https://calendly.com/abbdulsamadhere/30min?back=1"
                     target="_blank"
@@ -1065,21 +1038,21 @@ const index = () => {
                   </div>
                 </div>
 
-                <div className="mt-8 p-6 bg-gradient-to-r from-red-900/30 to-gray-900/30 rounded-xl border border-red-400/30">
+                <div className="mt-8 p-6 border-colors rounded-xl">
                   <div className="text-center py-[10px]">
-                    <div className="text-3xl font-bold text-red-400 mb-[5px]">
-                      Higher Overheads
+                    <div className="text-3xl font-bold text-green-400 mb-[5px]">
+                    
+                      Higher Overheads  With no guarantee of improvement
+                    
+                    
                     </div>
-                    <p className="text-gray-300">
-                      With no guarantee of improvement
-                    </p>
                   </div>
                 </div>
               </div>
             </div>
             {/* Bottom CTA Section */}
-            <div className="text-center my-[20px] md:w-auto  mx-auto">
-              <div className="bg-gradient-to-r from-blue-900/50 to-purple-900/50 rounded-2xl p-[20px] border border-blue-400/30">
+            <div className="text-center my-[20px] md:w-auto  mx-auto ">
+              <div className=" rounded-2xl p-[20px] border-colors">
                 <h3 className="text-2xl font-bold my-[10px]">
                   Ready to Experience the Difference?
                 </h3>
@@ -1124,9 +1097,9 @@ const index = () => {
             </p>
           </div>
 
-          <div className="section4-box4">
+          <div className="section4-box4 ">
             {faqQuestions.map((item, index) => (
-              <div key={index} className="section4-box-tab">
+              <div key={index} className="section4-box-tab border-colors">
                 <button onClick={() => toggle(index)} className="w-full">
                   <span className="text-left">{item.question}</span>
                   <ChevronDown
@@ -1152,7 +1125,7 @@ const index = () => {
 
       {/* Contact   */}
       <section id="contact" className="contact-form-section">
-        {/* Enhanced Background Effects */}
+
 
         <div className="max-w-4xl mx-auto px-4 py-20 contact">
           <div className="text-center mb-12">

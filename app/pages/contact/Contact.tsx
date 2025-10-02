@@ -63,7 +63,7 @@ export default function ContactForm() {
   };
 
   return (
-    <section id="faq" className="section4-container4 ">
+    <section id="faq" className="section4-container4 contact-mainbox">
       <div className="socail-contact"></div>
       {/* Contact Form */}
       <div className="w-full bg-gradient-to-br from-gray-900/80 to-black/90 rounded-2xl p-[20px] border border-blue-400/20 relative overflow-hidden">
