@@ -11,38 +11,11 @@ const Footer = () => {
 
   return (
     <footer className="Footer">
-      {/* Main Footer Content */}
-
-      <div className="floating-shapes">
-        <div className="shape"></div>
-        <div className="shape"></div>
-        <div className="shape"></div>
-        <div className="shape"></div>
-        <div className="shape"></div>
-      </div>
-
-      <div className="morphing-shapes">
-        <div className="morph"></div>
-        <div className="morph"></div>
-      </div>
-
-      <div className="sparkle-container">
-        <div className="sparkle"></div>
-        <div className="sparkle"></div>
-        <div className="sparkle"></div>
-        <div className="sparkle"></div>
-        <div className="sparkle"></div>
-        <div className="sparkle"></div>
-        <div className="sparkle"></div>
-        <div className="sparkle"></div>
-      </div>
-
+  
       <div className="f-main">
         {/* Logo Section */}
-
-        {/* Contact Information Grid */}
         <div className="contact-grid">
-          <div className=" p-[0] group  flex justify-center items-center  flex-col  items-center">
+          <div className="f-email p-[0] group  flex justify-center items-center  flex-col  items-center">
             <Image
               src="/assets/logo.png"
               alt="Pixelatech Logo"
@@ -69,7 +42,8 @@ const Footer = () => {
                 <h4 className="font-semibold text-white mb-[5px]">Email Us</h4>
                 <Link
                   href="mailto:info@thisispixelatech.com"
-                  className="text-[white] py-[8px] mb-[5px] hover:text-blue-400 transition-colors text-[white] duration-300 text-lg"
+                  className="text-[white] no-underline
+ py-[8px] mb-[5px] hover:text-blue-400 transition-colors text-[white] duration-300 text-lg"
                 >
                   info@thisispixelatech.com
                 </Link>
@@ -90,7 +64,7 @@ const Footer = () => {
                 <h4 className="font-semibold text-white mb-[5px]">Call Us</h4>
                 <Link
                   href="tel:+1(000)000-000"
-                  className="text-[white] py-[8px] hover:text-blue-400 mb-[5px] text-[white] transition-colors duration-300 text-lg"
+                  className="text-[white] no-underline py-[8px] hover:text-blue-400 mb-[5px] text-[white] transition-colors duration-300 text-lg"
                 >
                   +1(000)000-000
                 </Link>
@@ -108,12 +82,7 @@ const Footer = () => {
               </div>
               <div>
                 <h4 className="font-semibold text-white mb-[5px]">Address</h4>
-                {/* <Link
-                  href="tel:+1(000)000-000"
-                  className="text-[white] py-[8px] hover:text-blue-400 mb-[5px] text-[white] transition-colors duration-300 text-lg"
-                > */}
-                  {/* +1(000)000-000 */}
-                {/* </Link> */}
+              
                 <p className="text-sm text-gray-400 my-[5px]">
                  Address: Flat 36, 34 Ryland Street Ryland Street, Placido, Birmingham, England, B16 8DB
                 </p>
@@ -123,13 +92,14 @@ const Footer = () => {
         </div>
 
         {/* Quick Links & Social Media */}
-        <div className="py-[50px] contact-grid gap-8">
+        <div className="py-[50px] w-[100%] mx-[auto] flex justify-around items-start gap-8">
           {/* Quick Links */}
-          <div className="text-center md:text-left">
+          <div className="w-[33%] flex justify-center items-center flex-col max-[auto]">
+            <div className="text-left">
             <h4 className="font-semibold text-white mb-[10px] text-[24px]">
               Quick Links
             </h4>
-            <ul className="space-y-3 list-none">
+            <ul className="space-y-3 list-none ">
               <li className="py-[10px] ">
                 <Link
                   href="/pages/home"
@@ -174,10 +144,11 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
+            </div>
           </div>
-
           {/* Services */}
-          <div className="text-center md:text-left">
+          <div className="w-[33%]  flex justify-center items-center flex-col max-[auto]">
+            <div className="text-left">
             <h4 className="font-semibold text-white mb-[10px] text-[24px]">
               Our Services
             </h4>
@@ -198,21 +169,22 @@ const Footer = () => {
                 <span className="text-[white]">Seo</span>
               </li>
             </ul>
+            </div>
           </div>
-
           {/* Social Media & Newsletter */}
-          <div className="text-center md:text-left">
+          <div className="w-[33%] max-[auto] flex flex-col items-start justify-center">
+            <div className="">
             <h4 className="font-semibold text-white mb-[10px] text-[24px]">
               Stay Connected
             </h4>
-            <div className="flex md:flex-wrap justify-center items-center md:justify-start gap-[20px] my-[20px]">
+            <div className="flex md:flex-wrap justify-start items-center md:justify-start gap-[20px] my-[20px]">
               <Link
                 href="https://www.linkedin.com/company/Pixelatechco/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-blue-600/20 rounded-full text-[white] hover:bg-blue-600/30 transition-colors group"
               >
-                <FaLinkedin size={30} color="#FFFF" />
+                <FaLinkedin size={26} color="#FFFF" />
               </Link>
               <Link
                 href="https://www.instagram.com/Pixelatech.co/?hl=en"
@@ -223,8 +195,8 @@ const Footer = () => {
                 <Image
                   src="/assets/instagram.png"
                   alt=""
-                  width={50}
-                  height={50}
+                  width={40}
+                  height={40}
                 />
                 {/* <FaInstagramSquare size={30} color="#FFFF"  className="border-none"/> */}
               </Link>
@@ -234,17 +206,17 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="p-3 bg-blue-600/20 rounded-full hover:bg-blue-600/30 text-[white] transition-colors group"
               >
-                <FaFacebook size={30} color="#FFFF" />
+                <FaFacebook size={26} color="#FFFF" />
               </Link>
             </div>
             <p className="text-sm text-gray-400">
               Follow us for the latest updates on AI-powered lead generation and
               sales automation.
             </p>
+            </div>
           </div>
         </div>
       </div>
-
       {/* Copyright Section */}
       <div className="f-copy">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">

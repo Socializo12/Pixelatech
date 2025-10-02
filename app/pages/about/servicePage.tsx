@@ -20,12 +20,14 @@ const Section1 = () => {
             <h4 className="gradient-text">About Us</h4>
           </div>
           <div className="flex items-center justify-center ">
-            <h1 className="text-[center] my-[20px]">
-              Take it All in Your Stride
-            </h1>
+           
           </div>
           <main className="">
-            <div className="w-[80%] mx-[auto] mb-[30px]">
+            <div className=" mx-[auto] mb-[30px]">
+              <div className="f-email content-box">
+                 <h1 className="text-[center] my-[20px]">
+              Take it All in Your Stride
+            </h1>
               <p className="my-[20px] leading-[1.5] text-[18px]">
                 Pixelatech | Top 1% Performance Marketing Agency in Birmingham
                 Welcome to Pixelatech – one of the top 1% digital marketing
@@ -42,6 +44,7 @@ const Section1 = () => {
                 on Facebook, Instagram, Google, and Meta. We are your trusted
                 partner for:
               </p>
+              </div>
             </div>
             <div className="main-container-grid mx-auto gap-[20px] p-8 md:p-12">
               {/* One */}
@@ -86,7 +89,7 @@ const Section1 = () => {
         </div>
       </section>
 
-      <section className="section3-container3  services-page">
+      <section className="section3-container3 ">
         <div className="main-container-grid mx-auto gap-[20px] p-8 md:p-12">
           {/* One */}
           {/* <div className="flex flex-col gap-[15px]"> */}

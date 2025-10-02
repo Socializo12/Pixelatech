@@ -33,7 +33,7 @@
   --gradient-dark: linear-gradient(135deg, rgba(17, 18, 35, 0.8), rgba(0, 0, 0, 0.9));
   
   /* Borders */
-  --border-color: rgba(255, 253, 112, 0.363);
+  --border-color: rgba(255, 253, 2, 0.163);
   --border1: linear-gradient(45deg, rgba(251, 191, 36, 0.8), rgba(253, 224, 71, 0.6));
   
   /* Hover Effects */
@@ -1715,7 +1715,7 @@ box-shadow: var(--hover-shadow);
 .f-email,
 .f-phone {
   padding: 20px;
-  background: var(--gradient-dark);
+  /* background: var(--gradient-dark); */
   border-radius: 20px;
   border: 1px solid var(--border-color);
   transition: all 0.4s ease;
